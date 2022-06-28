@@ -11,10 +11,14 @@
 - [Technical Article: (is a Work in progress)](#)
 
 ## ScreenShots
-<img width=150 src="https://github.com/JacksiroKe/SiroTodo/blob/main/screenshots/image1.jpg"/>
-<img width=150 src="https://github.com/JacksiroKe/SiroTodo/blob/main/screenshots/image2.jpg"/>
-<img width=150 src="https://github.com/JacksiroKe/SiroTodo/blob/main/screenshots/image3.jpg"/>
- 
+<table>
+    <tr>
+        <td><img width=300 src="https://github.com/JacksiroKe/SiroTodo/blob/main/screenshots/image1.jpg"/></td>
+        <td><img width=300 src="https://github.com/JacksiroKe/SiroTodo/blob/main/screenshots/image2.jpg"/></td>
+        <td><img width=300 src="https://github.com/JacksiroKe/SiroTodo/blob/main/screenshots/image3.jpg"/></td>
+    </tr>
+</table>
+
 ## Features
 * Splash screen
 * Search tasks
