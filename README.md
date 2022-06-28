@@ -11,9 +11,9 @@
 - [Technical Article: (is a Work in progress)](#)
 
 ## ScreenShots
-<img width=300 src="https://github.com/JacksiroKe/SiroTodo/blob/main/screenshots/image1.jpg" hspace=150/>
-<img width=300 src="https://github.com/JacksiroKe/SiroTodo/blob/main/screenshots/image2.jpg" hspace=150/>
-<img width=300 src="https://github.com/JacksiroKe/SiroTodo/blob/main/screenshots/image3.jpg" hspace=150/>
+<img width=300 src="https://github.com/JacksiroKe/SiroTodo/blob/main/screenshots/image1.jpg"/>
+<img width=300 src="https://github.com/JacksiroKe/SiroTodo/blob/main/screenshots/image2.jpg"/>
+<img width=300 src="https://github.com/JacksiroKe/SiroTodo/blob/main/screenshots/image3.jpg"/>
  
 ## Features
 * Splash screen
