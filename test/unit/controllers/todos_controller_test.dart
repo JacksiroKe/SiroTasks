@@ -7,11 +7,11 @@ import 'todos_controller_test.mocks.dart';
 
 @GenerateMocks([TodosController])
 void main() {
-  test('check if saveNewTask works as expected', () async {
+  test('check if saveTask works as expected', () async {
     final controller = MockTodosController();
 
-    when(controller.saveNewTask()).thenAnswer((_) async => true);
-    controller.saveNewTask();
-    verify(controller.saveNewTask());
+    when(controller.saveTask()).thenAnswer((_) async => true);
+    controller.saveTask();
+    verify(controller.saveTask());
   });
 }

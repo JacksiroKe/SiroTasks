@@ -40,6 +40,10 @@ class MockTodosController extends _i1.Mock implements _i4.TodosController {
       (super.noSuchMethod(Invocation.getter(#userData),
           returnValue: _FakeGetStorage_0()) as _i2.GetStorage);
   @override
+  set task(_i4.Task? _task) =>
+      super.noSuchMethod(Invocation.setter(#task, _task),
+          returnValueForMissingStub: null);
+  @override
   bool get isLoading =>
       (super.noSuchMethod(Invocation.getter(#isLoading), returnValue: false)
           as bool);
@@ -99,13 +103,32 @@ class MockTodosController extends _i1.Mock implements _i4.TodosController {
   void onClose() => super.noSuchMethod(Invocation.method(#onClose, []),
       returnValueForMissingStub: null);
   @override
+  _i6.Future<void> showCurrentTask() =>
+      (super.noSuchMethod(Invocation.method(#showCurrentTask, []),
+          returnValue: Future<void>.value(),
+          returnValueForMissingStub: Future<void>.value()) as _i6.Future<void>);
+  @override
   bool validateInput() =>
       (super.noSuchMethod(Invocation.method(#validateInput, []),
           returnValue: false) as bool);
   @override
-  _i6.Future<bool?> saveNewTask() =>
-      (super.noSuchMethod(Invocation.method(#saveNewTask, []),
+  _i6.Future<bool?> saveTask() =>
+      (super.noSuchMethod(Invocation.method(#saveTask, []),
           returnValue: Future<bool?>.value()) as _i6.Future<bool?>);
+  @override
+  _i6.Future<bool?> deleteTask() =>
+      (super.noSuchMethod(Invocation.method(#deleteTask, []),
+          returnValue: Future<bool?>.value()) as _i6.Future<bool?>);
+  @override
+  _i6.Future<void> confirmCancel(_i5.BuildContext? context) =>
+      (super.noSuchMethod(Invocation.method(#confirmCancel, [context]),
+          returnValue: Future<void>.value(),
+          returnValueForMissingStub: Future<void>.value()) as _i6.Future<void>);
+  @override
+  _i6.Future<void> confirmDelete(_i5.BuildContext? context) =>
+      (super.noSuchMethod(Invocation.method(#confirmDelete, [context]),
+          returnValue: Future<void>.value(),
+          returnValueForMissingStub: Future<void>.value()) as _i6.Future<void>);
   @override
   void update([List<Object>? ids, bool? condition = true]) =>
       super.noSuchMethod(Invocation.method(#update, [ids, condition]),
