@@ -1,7 +1,7 @@
 class ApiConstants {
   static const parseUrl = "https://parseapi.back4app.com/classes/";
-  static const parseAppID = "m7uZc3CcuFbJKjxYRRsFsmSD1CTgpv9RMQ1IdJq3";
-  static const parseApiKey = "fZH0PzvdknNyBoN5YZkhJZEAP8k6CGMrA5tqU22a";
+  static const parseAppID = "YOUR_PARSE_APPLICATION_ID";
+  static const parseApiKey = "YOUR_PARSE_REST_API_KEY";
 
   static const pathUserCollection = "users";
   static const pathMessageCollection = "messages";
