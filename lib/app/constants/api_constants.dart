@@ -3,18 +3,6 @@ class ApiConstants {
   static const parseAppID = "YOUR_PARSE_APPLICATION_ID";
   static const parseApiKey = "YOUR_PARSE_REST_API_KEY";
 
-  static const pathUserCollection = "users";
-  static const pathMessageCollection = "messages";
-  static const nickname = "nickname";
-  static const aboutMe = "aboutMe";
-  static const photoUrl = "photoUrl";
-  static const id = "id";
-  static const chattingWith = "chattingWith";
-  static const idFrom = "idFrom";
-  static const idTo = "idTo";
-  static const timestamp = "timestamp";
-  static const content = "content";
-  static const type = "type";
   static const todo = "todo";
   static const tasks = "tasks";
 }
@@ -33,18 +21,6 @@ class EventConstants {
   static const int invalidAccessToken = 18;
 
   static const int noInternetConnection = 20;
-
-  static const int userSigninSuccessful = 500;
-  static const int userSigninUnsuccessful = 501;
-  static const int userNotFound = 502;
-  static const int userSignupSuccessful = 503;
-  static const int userSignupUnsuccessful = 504;
-  static const int userAlreadyRegistered = 505;
-  static const int signupSuspended = 506;
-  static const int signupUnpermited = 507;
-  static const int changePasswordSuccessful = 508;
-  static const int changePasswordUnsuccessful = 509;
-  static const int invalidOldPassword = 510;
 }
 
 class EventMessages {
@@ -61,22 +37,4 @@ class EventMessages {
   static const String invalidAccessToken = 'Invalid access token';
 
   static const String noInternetConnection = 'No internet connection';
-
-  static const String userSigninSuccessful = 'Signin was Successful';
-  static const String userSigninUnsuccessful = 'Signin Unsuccessful';
-  static const String userNotFound = 'User not found';
-  static const String userSignupSuccessful = 'Signing up was successful';
-  static const String userSignupUnsuccessful = 'Signing up unsuccessful';
-  static const String userAlreadyRegistered = 'You are already registered';
-  static const String signupSuspended = 'Signing up is suspended';
-  static const String signupUnpermited = 'Signing up is not permited';
-  static const String changePasswordSuccessful =
-      'Password change was successful';
-  static const String changePasswordUnsuccessful =
-      'Password change unsuccessful';
-  static const String invalidOldPassword = 'Invalid Old Password';
-}
-
-class ApiResponseCode {
-  static const int scOK = 200;
 }
