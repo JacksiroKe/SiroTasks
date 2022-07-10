@@ -8,14 +8,14 @@
  This repo will be useful to developers looking for an alternative to backend services like Firebase as they will enjoy building apps without any third party libraries when they switch to using RestFUL APIs provided by the Back4App platform.
 
 ## Article
-- [Technical Article: (is a Work in progress)](#)
+- [Technical Article on Hashnode](https://jacksiro.hashnode.dev/using-parse-server-back4app-as-an-alternative-to-firebase-for-your-flutter-app)
 
 ## ScreenShots
 <table>
     <tr>
-        <td><img width=300 src="https://github.com/JacksiroKe/SiroTask/blob/main/screenshots/image1.jpg"/></td>
-        <td><img width=300 src="https://github.com/JacksiroKe/SiroTask/blob/main/screenshots/image2.jpg"/></td>
-        <td><img width=300 src="https://github.com/JacksiroKe/SiroTask/blob/main/screenshots/image3.jpg"/></td>
+        <td><img width=300 src="https://github.com/JacksiroKe/SiroTasks/blob/main/screenshots/image1.jpg"/></td>
+        <td><img width=300 src="https://github.com/JacksiroKe/SiroTasks/blob/main/screenshots/image2.jpg"/></td>
+        <td><img width=300 src="https://github.com/JacksiroKe/SiroTasks/blob/main/screenshots/image3.jpg"/></td>
     </tr>
 </table>
 
