@@ -2,11 +2,11 @@ import 'package:get/get.dart';
 
 import '../../../exports.dart';
 
-class TodosBinding extends Bindings {
+class TasksBinding extends Bindings {
   @override
   void dependencies() {
-    Get.lazyPut<TodosController>(
-      () => TodosController(),
+    Get.lazyPut<TasksController>(
+      () => TasksController(),
     );
   }
 }

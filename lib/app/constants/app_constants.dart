@@ -1,6 +1,6 @@
 class AppConstants {
-  static const appTitle = "Siro's Todo";
+  static const appTitle = "Siro's Task";
   static const loginTitle = "Login";
   static const homeTitle = "Home";
-  static const todoTitle = "To Do";
+  static const taskTitle = "To Do";
 }

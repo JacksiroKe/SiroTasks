@@ -8,8 +8,8 @@ import 'package:http/http.dart' as http;
 
 import '../../../exports.dart';
 
-/// The controller for the Todos screen
-class TodosController extends GetxController {
+/// The controller for the Tasks screen
+class TasksController extends GetxController {
   final GetStorage userData = GetStorage();
   Task? task;
   bool isLoading = false;
@@ -67,8 +67,8 @@ class TodosController extends GetxController {
           client: http.Client(),
           //appending the primary key is where the difference of updating vs new task comes in
           url: task != null
-              ? ApiConstants.todo
-              : ApiConstants.todo + "/${task!.objectId}",
+              ? ApiConstants.task
+              : ApiConstants.task + "/${task!.objectId}",
           data: jsonEncode(<String, String>{
             'title': taskTitle!,
             'content': taskContent!,
@@ -139,7 +139,7 @@ class TodosController extends GetxController {
       if (isConnected) {
         final EventObject? eventObject = await httpDelete(
           client: http.Client(),
-          url: ApiConstants.todo + "/${task!.objectId}",
+          url: ApiConstants.task + "/${task!.objectId}",
         );
 
         isLoading = false;

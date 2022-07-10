@@ -1,7 +1,7 @@
-# Siro's Todo App
+# Siro's Task App
 
 ## Description
-* A Flutter Todo App with [Parse](https://parseplatform.org/) ([Back4app](https://back4app.com)) as the backend demonstrating CRUD operations.
+* A Flutter Task App with [Parse](https://parseplatform.org/) ([Back4app](https://back4app.com)) as the backend demonstrating CRUD operations.
 * Getx State Management
  
 ## Objective
@@ -13,9 +13,9 @@
 ## ScreenShots
 <table>
     <tr>
-        <td><img width=300 src="https://github.com/JacksiroKe/SiroTodo/blob/main/screenshots/image1.jpg"/></td>
-        <td><img width=300 src="https://github.com/JacksiroKe/SiroTodo/blob/main/screenshots/image2.jpg"/></td>
-        <td><img width=300 src="https://github.com/JacksiroKe/SiroTodo/blob/main/screenshots/image3.jpg"/></td>
+        <td><img width=300 src="https://github.com/JacksiroKe/SiroTask/blob/main/screenshots/image1.jpg"/></td>
+        <td><img width=300 src="https://github.com/JacksiroKe/SiroTask/blob/main/screenshots/image2.jpg"/></td>
+        <td><img width=300 src="https://github.com/JacksiroKe/SiroTask/blob/main/screenshots/image3.jpg"/></td>
     </tr>
 </table>
 
@@ -28,7 +28,7 @@
 ## How to run
 * Sign Up or Sign In on [Back4app](https://back4app.com)
 * Once signed in click “Build a new app” and give a name to your app
-* You will be taken to the console where by default there are 2 classes Under **Database** present namely Role and User. Create a new class named `todo` which will store the data for each Todo item.
+* You will be taken to the console where by default there are 2 classes Under **Database** present namely Role and User. Create a new class named `task` which will store the data for each Task item.
 * Proceed to 2 columns namely: `title` and `content` to the class which will store the actual task.
 * Clone this repo
 * Navigate to the code `lib\app\constants\api_constants.dart`

@@ -1,6 +1,6 @@
 {
-    "name": "sirotodo",
-    "short_name": "sirotodo",
+    "name": "sirotask",
+    "short_name": "sirotask",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

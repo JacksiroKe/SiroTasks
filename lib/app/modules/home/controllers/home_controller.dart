@@ -51,7 +51,7 @@ class HomeController extends GetxController {
     if (isConnected) {
       final EventObject? eventObject = await httpGet(
         client: http.Client(),
-        url: ApiConstants.todo,
+        url: ApiConstants.task,
       );
 
       try {

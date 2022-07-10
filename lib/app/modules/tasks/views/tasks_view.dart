@@ -4,15 +4,15 @@ import 'package:get_storage/get_storage.dart';
 
 import '../../../exports.dart';
 
-/// Todos screen after Todos
+/// Tasks screen after Tasks
 // ignore: must_be_immutable
-class TodosView extends StatelessWidget {
-  final TodosController controller = Get.put(TodosController());
+class TasksView extends StatelessWidget {
+  final TasksController controller = Get.put(TasksController());
   final GetStorage userData = GetStorage();
   final Task? currentTask;
   Size? size;
 
-  TodosView({Key? key, this.currentTask}) : super(key: key);
+  TasksView({Key? key, this.currentTask}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +24,7 @@ class TodosView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          AppConstants.todoTitle,
+          AppConstants.taskTitle,
           style: appBarTextStyle.copyWith(fontSize: 25),
         ),
         actions: [
@@ -47,7 +47,7 @@ class TodosView extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         child: SizedBox(
-          child: GetBuilder<TodosController>(
+          child: GetBuilder<TasksController>(
             builder: (controller) =>
                 controller.isLoading ? const CircularProgress() : inputForm(),
           ),

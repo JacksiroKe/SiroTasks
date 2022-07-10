@@ -4,7 +4,6 @@ import 'package:get_storage/get_storage.dart';
 
 import '../../../exports.dart';
 
-/// Home screen after Home
 // ignore: must_be_immutable
 class HomeView extends StatelessWidget {
   final HomeController controller = Get.put(HomeController());
@@ -45,7 +44,7 @@ class HomeView extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           Get.to(
-            () => TodosView(),
+            () => TasksView(),
             transition: Transition.rightToLeft,
           );
         },
@@ -102,7 +101,7 @@ class HomeView extends StatelessWidget {
         ),
         onTap: () {
           Get.to(
-            () => TodosView(currentTask: setTask),
+            () => TasksView(currentTask: setTask),
             transition: Transition.rightToLeft,
           );
         },

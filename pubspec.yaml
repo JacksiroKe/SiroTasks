@@ -1,5 +1,5 @@
-name: sirotodo
-description: A simple Todo App created with Parse as the backend
+name: sirotask
+description: A simple Task App created with Parse as the backend
 
 publish_to: 'none' 
 version: 1.0.0+1

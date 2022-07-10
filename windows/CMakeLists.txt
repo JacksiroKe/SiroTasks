@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(sirotodo LANGUAGES CXX)
+project(sirotask LANGUAGES CXX)
 
-set(BINARY_NAME "sirotodo")
+set(BINARY_NAME "sirotask")
 
 cmake_policy(SET CMP0063 NEW)
 

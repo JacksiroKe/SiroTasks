@@ -5,18 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "todo",
+            "name": "task",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "sirotodo (profile mode)",
+            "name": "sirotask (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "sirotodo (release mode)",
+            "name": "sirotask (release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"

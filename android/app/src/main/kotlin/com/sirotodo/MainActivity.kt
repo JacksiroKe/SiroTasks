@@ -1,4 +1,4 @@
-package com.sirotodo
+package com.sirotask
 
 import io.flutter.embedding.android.FlutterActivity
 

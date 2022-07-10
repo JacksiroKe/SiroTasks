@@ -27,7 +27,7 @@ class SplashView extends StatelessWidget {
               height: 35,
             ),
             Text(
-              'Todo App',
+              'Task App',
               style: appBarTextStyle.copyWith(
                 fontSize: 40,
                 color: AppColors.blue,
